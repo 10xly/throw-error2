@@ -1,0 +1,27 @@
+{
+  "name": "throw-error2",
+  "version": "1.0.0",
+  "description": "Throw something if it's an Error, otherwise returns it",
+  "keywords": [
+    "Error"
+  ],
+  "homepage": "https://github.com/10xly/throw-error2#readme",
+  "bugs": {
+    "url": "https://github.com/10xly/throw-error2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10xly/throw-error2.git"
+  },
+  "license": "MIT",
+  "author": "10x'ly",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@10xly/is-instance-of": "^1.0.0",
+    "es-error-intrinsics": "^1.0.1"
+  }
+}
